@@ -1,0 +1,121 @@
+﻿a {
+	cursor: pointer;
+}
+
+.spacer {
+	margin-top: 20px;
+}
+
+.hSpacer {
+	margin-left: 20px;
+}
+
+.table-hover > tbody > tr:hover > td,
+.table-hover > tbody > tr:hover > th {
+  background-color: #428BCA;
+  color: #ffffff;
+}
+
+.clickable {
+	cursor: pointer;
+}
+
+.colDe {
+	width: 20%;
+}
+
+.colA {
+	width: 15%;
+}
+
+.colObjet {
+	width: 45%;
+}
+
+.colDate {
+	width: 15%;
+}
+
+.surbrillanceRecherche {
+	background-color: #FFD42A;
+}
+
+.labelChampNouveauMail {
+	width: 70px;
+}
+
+.input-group {
+	width: 100%;
+}
+
+.contenuNouveauMail {
+	width: 100%;
+}
+
+input.ng-invalid {
+	background-color: rgba(255, 0, 0, 0.5);
+}
+
+.preloader {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+	
+	/*padding-top: 20%;*/
+	background-color: rgba(0, 0, 0, 0.7);
+	z-index: 999;
+}
+/*
+
+.preloader .imgPreloader {
+	position: absolute;
+	margin: auto;
+	background-image: url("../img/preloader5.gif");
+	
+	width: 128px;
+	height: 128px;
+
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+}
+*/
+
+.msgPreloader {
+	position: absolute;
+	margin: auto;
+
+	width: 300px;
+    height: 191px;
+
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px; 
+    
+    background-image: url(../img/cadrePopup.png);
+    color: white;
+}
+
+.msgPreloader h3 {
+    position: absolute;
+    left: 30px;
+    width: 240px;
+    text-align: center;
+}
+
+.msgPreloader img {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 125px;
+    top: 95px;
+}
+
+iframe {
+	border: 0px;
+	width: 100%;
+}
